@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>CRM Retreat Centers</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&amp;family=Open+Sans:wght@400;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4F0E8}
+a{color:#5A3E26}a:hover{color:#2A1D12}
+</style>
+</helmet>
+<div style="font-family: 'Open Sans', system-ui, sans-serif; color: #2A2420; background: #F4F0E8; min-height: 100vh; display: flex; flex-direction: column">
+
+  <header style="background: #111111; color: #FFFFFF; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: center; gap: 12px">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A25A" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M12 2v20M6 8h12"></path></svg>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <span style="font-family: 'Playfair Display', Georgia, serif; font-size: 17px; letter-spacing: 0.04em">Dòng Mẹ Chúa Cứu Chuộc</span>
+        <span style="font-size: 12px; color: #D9D2C5; letter-spacing: 0.06em; text-transform: uppercase">Congregation of the Mother of the Redeemer</span>
+      </div>
+    </div>
+    <span style="font-size: 13px; color: #D9D2C5">Trung Tâm Tĩnh Tâm · Retreat Centers</span>
+  </header>
+
+  <section style="padding: 72px 24px 40px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 14px">
+    <div style="width: 48px; height: 2px; background: #C9A25A"></div>
+    <h1 style="margin: 0; font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(32px, 5vw, 52px); line-height: 1.15; color: #1A1410">Chọn Trung Tâm Tĩnh Tâm</h1>
+    <p style="margin: 0; font-size: 19px; color: #4A4038">Choose a retreat center</p>
+    <p style="margin: 6px 0 0; max-width: 620px; font-size: 16px; line-height: 1.6; color: #5C5249">Ba nơi tĩnh tâm của Dòng, mỗi nơi có trang riêng để xem cơ sở và đăng ký. Three retreat centers, each with its own site for facilities and booking.</p>
+  </section>
+
+  <main style="padding: 0 24px 80px; display: flex; justify-content: center">
+    <div style="width: 100%; max-width: 1200px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px">
+
+      <article style="background: #FFFFFF; border: 1px solid #E2DACB; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column">
+        <div style="position: relative; height: 220px; background: #DCD3C2; display: flex; align-items: center; justify-content: center">
+          <span style="font-size: 13px; color: #5C5249">[Photo · Carthage campus]</span>
+          <span style="position: absolute; top: 14px; left: 14px; background: #111111; color: #FFFFFF; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 10px; border-radius: 3px">Nhà Chính · Main</span>
+        </div>
+        <div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+          <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #7A5A2E">Carthage, Missouri</span>
+          <h2 style="margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 26px; line-height: 1.25; color: #1A1410">[Center name] — Carthage</h2>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5C5249">Trụ sở của Dòng tại Hoa Kỳ, nơi tổ chức Đại Hội Thánh Mẫu. The congregation's U.S. home and site of Marian Days.</p>
+          <div style="flex-grow: 1"></div>
+          <a href="#" style="margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; background: #5A3E26; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 4px">Vào trang · Visit site
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </article>
+
+      <article style="background: #FFFFFF; border: 1px solid #E2DACB; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column">
+        <div style="height: 220px; background: #D6CDBA; display: flex; align-items: center; justify-content: center">
+          <span style="font-size: 13px; color: #5C5249">[Photo · Fort Worth aerial]</span>
+        </div>
+        <div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+          <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #7A5A2E">Fort Worth, Texas</span>
+          <h2 style="margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 26px; line-height: 1.25; color: #1A1410">Holy Family Retreat Center</h2>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5C5249">Khuôn viên 100 mẫu với nhà nguyện, nhà khách và hội trường. 100-acre grounds with chapel, guest houses and halls.</p>
+          <div style="flex-grow: 1"></div>
+          <a href="https://crmusretreatcenter.net" style="margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; background: #5A3E26; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 4px">Vào trang · Visit site
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </article>
+
+      <article style="background: #FFFFFF; border: 1px solid #E2DACB; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column">
+        <div style="height: 220px; background: #DDD5C6; display: flex; align-items: center; justify-content: center">
+          <span style="font-size: 13px; color: #5C5249">[Photo · Los Angeles center]</span>
+        </div>
+        <div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+          <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #7A5A2E">Los Angeles, California</span>
+          <h2 style="margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 26px; line-height: 1.25; color: #1A1410">[Center name] — Los Angeles</h2>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5C5249">[Mô tả ngắn · One-line description of the LA center]</p>
+          <div style="flex-grow: 1"></div>
+          <a href="#" style="margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; background: #5A3E26; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px; border-radius: 4px">Vào trang · Visit site
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer style="margin-top: auto; background: #111111; color: #D9D2C5; padding: 28px 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; font-size: 13px">
+    <span>© Dòng Mẹ Chúa Cứu Chuộc · CRM</span>
+    <span>[Văn phòng · Office phone / email]</span>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1360,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
